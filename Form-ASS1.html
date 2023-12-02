@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title> HTML FORM</title>
+</head>
+<body>
+    <center>
+        <h1> New Employee Details Form</h1>
+    </center>
+    <hr>
+    
+    <h2>Personal Details!</h2>
+    
+    <form>
+        <label for="">Your Name</label>
+        <button type="menu">Title</button>
+        <input type="text" placeholder="First Name" name="firstName" id="firstName"  required>
+        <input type="text" placeholder="Middle Name" name="middleName" id="middleName" required >
+        <input type="text" placeholder="Last Name" name="lastName" id="lastName" required>
+    
+        <br><br>
+        <label for="">Gender</label>
+        <label for="">Male</label>
+        <input type="radio" value="Male" id="male" name="Gender">
+
+        <label for="">Female</label>
+        <input type="radio" value="Male" id="male" name="Gender">
+        
+        <br><br>
+        <label for=""> Birth Date </label>
+        <input type="text" placeholder="" name="birthDate" id="birthDate" required >
+        
+        <br><br>
+        <legend>Address:</legend>
+            <table>
+                <tr>
+                    <td>*street address</td>
+                    <td>*street address line 2</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="street" id="street" required></td>
+                    <td><input type="text" name="line2" id="line2" required></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>*suburb</td>
+                    <td>*state</td>
+                    <td>*post code</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="street" id="street" required></td>
+                    <td><input type="text" name="line2" id="line2" required></td>
+                    <td><input type="text" name="line2" id="line2" required></td>
+                </tr>
+            </table>
+        
+        <br><br>
+        <legend>Contact</legend>
+        <table>
+            <tr>
+                <td>*Home Phone</td>
+                <td>*Mobile Phone</td>
+                <td>*Email Address</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="phone" id="Phone" required></td>
+                <td><input type="text" name="mobile" id="Mobile" required></td>
+                <td><input type="text" name="email" id="Email" required></td>
+            </tr>
+        </table>
+        <br>
+        <label for="">Are you an Australian ?</label>
+        <input type="radio" value="australian" id="Australian" name="Australian" >YES
+        <input type="radio" value="australian1" id="Australian1" name="Australian1">NO
+
+        <br><br>
+        <label for="">Do you have a working visa ?</label>
+        <input type="radio" value="visa" id="visa" name="visa">YES
+        <input type="radio" value="visa1" id="visa1" name="visa1">NO
+
+        <h2>Employment Details!</h2>
+
+        
+        <label for="">Job Title</label>
+        <input type="text" placeholder="" name="jobTitle" id="jobTitle" required >
+        <br><br>
+
+        <label for="">Commencement Date</label>
+        <input type="text" placeholder="" name="commDate" id="commDate" required >
+        <br><br>
+        <label for="">File Tax Number</label>
+        <input type="text" placeholder="" name="tax" id="taxNumber" required >
+        <br><br>
+
+        <label for="">Employment Status</label>
+        <input type="radio" value="fullTime" id="fullTime" name="FullTime" >Full Time
+        <input type="radio" value="partTime" id="partTime" name="PartTime">Part Time
+        <input type="radio" value="temporary" id="temporary" name="Temporary" >Temporary
+        <input type="radio" value="casual" id="casual" name="Casual" >Casual
+
+        <h2>Emergency Contact Details</h2>
+        <label for="">Your Name</label>
+        
+        <input type="text" placeholder="First Name" name="firstName"
+        id="firstName"  required>
+        <input type="text" placeholder="Middle Name" name="middleName"
+        id="middleName" required >
+        <input type="text" placeholder="Last Name" name="lastName"
+        id="lastName" required>
+        
+        <br><br>
+        <label for="">Relationship</label>
+        <input type="text" name="relationship" id="relationship" required >
+        <br><br>
+
+        <legend>Contact</legend>
+        <table>
+            <tr>
+                <td>*Home Phone</td>
+                <td>*Mobile Phone</td>
+                <td>*Email Address</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="phone" id="Phone" required></td>
+                <td><input type="text" name="mobile" id="Mobile" required></td>
+                <td><input type="text" name="email" id="Email" required></td>
+            </tr>
+        </table>
+        <h2>Banking Details</h2>
+
+        <legend>Bank</legend>
+        <table>
+            <tr>
+                <td>*BankName</td>
+                <td>*BankBranch</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="Bank" id="bank" required></td>
+                <td><input type="text" name="BankBranch" id="branch" required></td>
+            </tr>
+        </table>
+        <br>
+        <legend>Account</legend>
+        <table>
+            <tr>
+                <td>*Account Name</td>
+                <td>*Account Number</td>
+                <td>*BSB Number</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="accountName" id="accountName" required></td>
+                <td><input type="text" name="Accountnumber" id="accountNumber" required></td>
+                <td><input type="text" name="BSBnumber" id="bsbNumber" required></td>
+            </tr>
+        </table>
+        <br>
+        <legend>*Employee Signature</legend>
+        <input type="text" name="Signature" id="signature" required><br><br>
+        <input type="text" name="Accountnumber" placeholder="Print your name here" id="accountNumber" required><br><br>
+        <input type="text" name="BSBnumber" placeholder="Enter date here" id="bsbNumber" required>
+       <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
